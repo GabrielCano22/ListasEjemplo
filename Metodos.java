@@ -44,4 +44,16 @@ public class Metodos {
             System.out.println( "Peso "+ item.getPeso());
         }
     }
+    public LinkedList<Vehiculo> BuscarVehiculo(LinkedList<Vehiculo> lista, String nombre, Double precio){
+        for (Vehiculo i : lista) {
+            if (i.getMarca().equalsIgnoreCase(nombre)) {
+                i.setMarca(i.getMarca());
+                i.setColor(i.getColor());
+                i.setModelo(i.getModelo());
+                i.setPrecio(precio);
+                i.setPeso(i.getPeso());
+            }
+        }
+        return lista;
+    }
 }
