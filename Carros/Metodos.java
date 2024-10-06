@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Metodos {
     Scanner sc = new Scanner(System.in);
-    LinkedList<Vehiculo> Lista = new LinkedList<>();
     public LinkedList<Vehiculo> LLenarLista(){
         boolean continuar = true;
+        LinkedList<Vehiculo> Lista = new LinkedList<>();
         String Marca;
         String Color;
         int modelo;

@@ -2,15 +2,15 @@ package Carros;
 public class Vehiculo {
     String Marca;
     String Color;
-    int modelo;
-    Double precio;
-    int peso;
+    int Modelo;
+    Double Precio;
+    int Peso;
     public Vehiculo(String marca, String color, int modelo, Double precio, int peso) {
         Marca = marca;
         Color = color;
-        this.modelo = modelo;
-        this.precio = precio;
-        this.peso = peso;
+        Modelo = modelo;
+        Precio = precio;
+        Peso = peso;
     }
     public String getMarca() {
         return Marca;
@@ -25,22 +25,22 @@ public class Vehiculo {
         Color = color;
     }
     public int getModelo() {
-        return modelo;
+        return Modelo;
     }
     public void setModelo(int modelo) {
-        this.modelo = modelo;
+        this.Modelo = modelo;
     }
     public Double getPrecio() {
-        return precio;
+        return Precio;
     }
     public void setPrecio(Double precio) {
-        this.precio = precio;
+        this.Precio = precio;
     }
     public int getPeso() {
-        return peso;
+        return Peso;
     }
     public void setPeso(int peso) {
-        this.peso = peso;
+        this.Peso = peso;
     }
 
 }
